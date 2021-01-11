@@ -1,0 +1,277 @@
+{
+    "basicUI": {
+        "hyProject": {
+            "prjName": "",
+            "prjType": 1,
+            "prjManager": "",
+            "vicePrjManager": "",
+            "chfEngineer": "",
+            "viceChfEngineer": "",
+            "sysManager": "",
+            "prjAmount": 0,
+            "adminRegion": "",
+            "creatTime": "1998/01/01 00:00:00",
+            "prjDesc": ""
+        },
+        "hyReservoirList": [],
+        "modelType": [],
+        "secList": [],
+        "uptoDwon": false
+    },
+    "outputBwUIList": [
+        {
+            "projectName": "",
+            "scheme": {
+                "schemeCode": "方案1",
+                "schemeType": 1,
+                "schemeDescription": "",
+                "begDate": "",
+                "timeStepType": 1,
+                "timeStepNum": 1,
+                "stepNum": 1,
+                "resCodeListSet": [
+                    {
+                        "ResIType": 1,
+                        "resCode": "1"
+                    }
+                ],
+                "resCodeList": [
+                    "",
+                    ""
+                ]
+            },
+            "taskName": "",
+            "userName": "",
+            "natCalZ": 0,
+            "bwCalZ": 0,
+            "freq": 0,
+            "natZInfoData": [
+                {
+                    "cs": "cs1",
+                    "dl": 0,
+                    "l": 0,
+                    "zbo": 0,
+                    "q": 0,
+                    "n": 0,
+                    "zb": 0
+                }
+            ],
+            "bwZInfoData": [
+                {
+                    "cs": "cs1",
+                    "dl": 0,
+                    "l": 0,
+                    "zbo": 0,
+                    "q": 0,
+                    "n": 0,
+                    "zb": 0
+                }
+            ]
+        }
+    ],
+    "outputEcoUIList": [
+        {
+            "projectName": "",
+            "scheme": {
+                "schemeCode": "方案1",
+                "schemeType": 1,
+                "schemeDescription": "",
+                "begDate": "",
+                "timeStepType": 1,
+                "timeStepNum": 1,
+                "stepNum": 1,
+                "resCodeListSet": [
+                    {
+                        "ResIType": 1,
+                        "resCode": "1"
+                    }
+                ],
+                "resCodeList": [
+                    "",
+                    ""
+                ]
+            },
+            "userName": "",
+            "faInvCostPresValue": 0,
+            "oprCostPresValue": 0,
+            "upgFeePresValue": 0,
+            "caInvCostPresValue": 0,
+            "caOprCostPresValue": 0,
+            "caUpgFeePresValue": 0,
+            "compFFPresValue": 0,
+            "totalCostPresValue": 0,
+            "totalCostPresValueDiff": 0
+        }
+    ],
+    "outputFdUIList": [
+        {
+            "projectName": "",
+            "scheme": {
+                "schemeCode": "方案1",
+                "schemeType": 1,
+                "schemeDescription": "",
+                "begDate": "",
+                "timeStepType": 1,
+                "timeStepNum": 1,
+                "stepNum": 1,
+                "resCodeListSet": [
+                    {
+                        "ResIType": 1,
+                        "resCode": "1"
+                    }
+                ],
+                "resCodeList": [
+                    "",
+                    ""
+                ]
+            },
+            "userName": "",
+            "resList": [
+                {
+                    "resName": "白马",
+                    "resCode": "3",
+                    "inQList": [1],
+                    "avgOutQList": [1],
+                    "outQList": [1],
+                    "zlevelList": [1],
+                    "capList": [1]
+                }
+            ]
+        }
+    ],
+    "outputRoUIList": [
+        {
+            "projectName": "",
+            "scheme": {
+                "schemeCode": "方案1",
+                "schemeType": 1,
+                "schemeDescription": "",
+                "begDate": "",
+                "timeStepType": 1,
+                "timeStepNum": 1,
+                "stepNum": 1,
+                "resCodeListSet": [
+                    {
+                        "ResIType": 1,
+                        "resCode": "1"
+                    }
+                ],
+                "resCodeList": [
+                    "",
+                    ""
+                ]
+            },
+            "outputRoResList": [
+                {
+                    "resCode": "3",
+                    "normalWaterLevel": 0,
+                    "deadWaterLevel": 0,
+                    "firmN": 0,
+                    "insCapacity": 0,
+                    "annAvgEngyOutput": 0,
+                    "insUseHours": 0,
+                    "maxWaterHead": 0,
+                    "annAvgWaterHead": 0,
+                    "minWaterHead": 0,
+                    "annAvgFlowQ": 0,
+                    "annGateFlowQ": 0,
+                    "flowQUtilization": 0,
+                    "runoffOutputProcessList": [
+                        {
+                            "date": "1998/01/01 00:00:00",
+                            "inflow": 0,
+                            "electricFlow": 0,
+                            "gateFlow": 0,
+                            "reservoirWaterLevel": 0,
+                            "averageWaterHead": 0,
+                            "outputN": 0
+                        }
+                    ],
+                    "headMaxN": [],
+                    "asuData": []
+                },
+                 {
+                    "resCode": "4",
+                    "normalWaterLevel": 0,
+                    "deadWaterLevel": 0,
+                    "firmN": 0,
+                    "insCapacity": 0,
+                    "annAvgEngyOutput": 0,
+                    "insUseHours": 0,
+                    "maxWaterHead": 0,
+                    "annAvgWaterHead": 0,
+                    "minWaterHead": 0,
+                    "annAvgFlowQ": 0,
+                    "annGateFlowQ": 0,
+                    "flowQUtilization": 0,
+                    "runoffOutputProcessList": [
+                        {
+                            "date": "1998/01/01 00:00:00",
+                            "inflow": 0,
+                            "electricFlow": 0,
+                            "gateFlow": 0,
+                            "reservoirWaterLevel": 0,
+                            "averageWaterHead": 0,
+                            "outputN": 0
+                        }
+                    ],
+                    "headMaxN": [],
+                    "asuData": []
+                }
+            ]
+        },
+ {
+            "projectName": "",
+            "scheme": {
+                "schemeCode": "方案2",
+                "schemeType": 1,
+                "schemeDescription": "",
+                "begDate": "",
+                "timeStepType": 1,
+                "timeStepNum": 1,
+                "stepNum": 1,
+                "resCodeListSet": [
+                    {
+                        "ResIType": 1,
+                        "resCode": "1"
+                    }
+                ],
+                "resCodeList": [
+                    "",
+                    ""
+                ]
+            },
+            "outputRoResList": [
+                {
+                    "resCode": "3",
+                    "normalWaterLevel": 0,
+                    "deadWaterLevel": 0,
+                    "firmN": 0,
+                    "insCapacity": 0,
+                    "annAvgEngyOutput": 0,
+                    "insUseHours": 0,
+                    "maxWaterHead": 0,
+                    "annAvgWaterHead": 0,
+                    "minWaterHead": 0,
+                    "annAvgFlowQ": 0,
+                    "annGateFlowQ": 0,
+                    "flowQUtilization": 0,
+                    "runoffOutputProcessList": [
+                        {
+                            "date": "1998/01/01 00:00:00",
+                            "inflow": 0,
+                            "electricFlow": 0,
+                            "gateFlow": 0,
+                            "reservoirWaterLevel": 0,
+                            "averageWaterHead": 0,
+                            "outputN": 0
+                        }
+                    ],
+                    "headMaxN": [],
+                    "asuData": []
+                }
+            ]
+        }
+
+    ]
+}

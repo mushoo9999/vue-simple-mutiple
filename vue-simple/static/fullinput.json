@@ -1,0 +1,510 @@
+{
+    "basicUI": {
+        "hyProject": {
+            "prjName": "",
+            "prjType": "",
+            "prjDesc": "",
+            "sysManager": "liqi"
+        },
+        "hyReservoirList": [{
+            "resCode": "3",
+            "resName": "大花水",
+            "resType": 1,
+            "normalWaterLevel": 0,
+            "deadWaterLevel": 0,
+            "flowLoss": 0,
+            "floodCtrlZList": [],
+            "hydroSta": {
+                "engineCount": 10,
+                "firmN": 0,
+                "outputK": 0,
+                "insCapacity": 0
+            },
+            "riverCode": "2",
+            "curveDownZQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "curveZV": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "curveZMaxQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "curveHeadMaxNList": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "natureRateQ_C": [],
+            "natureRateQ_E": [],
+            "natureRateQ_H": [],
+            "floodTyped": [],
+            "floodDesign": [],
+            "dispatchGraph": {
+                "begNum": 16,
+                "lineCount": "",
+                "lineNames": [],
+                "lineNs": [],
+                "lineZs": []
+            }
+        }, {
+            "resCode": "4",
+            "resName": "洪家渡",
+            "resType": 1,
+            "normalWaterLevel": 204.675,
+            "deadWaterLevel": 196.675,
+            "flowLoss": 23,
+            "floodCtrlZList": [{
+                "beginTime": "",
+                "endTime": "",
+                "dataValue": ""
+            }],
+            "hydroSta": {
+                "engineCount": 10,
+                "firmN": 0,
+                "outputK": 0,
+                "insCapacity": 0
+            },
+            "riverCode": "1",
+            "curveDownZQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimData3": [],
+                "dimNum": 0
+            },
+            "curveZV": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "curveZMaxQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "curveHeadMaxNList": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "natureRateQ_C": [],
+            "natureRateQ_E": [],
+            "natureRateQ_H": [{
+                "dataTime": "2017/05/13 00:00:00",
+                "dataValue": 0
+            }],
+            "floodTyped": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 1900
+            }],
+            "floodDesign": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 0
+            }],
+            "dispatchGraph": {
+                "begNum": 16,
+                "lineCount": "",
+                "lineNames": [],
+                "lineNs": [],
+                "lineZs": []
+            }
+        }, {
+            "resCode": "5",
+            "resName": "构皮滩",
+            "resType": 1,
+            "normalWaterLevel": 204.675,
+            "deadWaterLevel": 196.675,
+            "flowLoss": 23,
+            "floodCtrlZList": [{
+                "beginTime": "2017/05/13 00:00:00",
+                "endTime": "2017/05/15 00:00:00",
+                "dataValue": 200
+            }],
+            "hydroSta": {
+                "engineCount": 10,
+                "firmN": 0,
+                "outputK": 0,
+                "insCapacity": 0
+            },
+            "riverCode": "1",
+            "curveDownZQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimData3": [],
+                "dimNum": 0
+            },
+            "curveZV": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "curveZMaxQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "curveHeadMaxNList": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 0
+            },
+            "natureRateQ_C": [],
+            "natureRateQ_E": [],
+            "natureRateQ_H": [{
+                "dataTime": "2017/05/13 00:00:00",
+                "dataValue": 0
+            }],
+            "floodTyped": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 1900
+            }],
+            "floodDesign": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 0
+            }],
+            "dispatchGraph": {
+                "begNum": 16,
+                "lineCount": "",
+                "lineNames": [],
+                "lineNs": [],
+                "lineZs": []
+            }
+        }, {
+            "resCode": "6",
+            "resName": "白马",
+            "resType": 10,
+            "normalWaterLevel": 204.675,
+            "deadWaterLevel": 196.675,
+            "flowLoss": 23,
+            "floodCtrlZList": [{
+                "beginTime": "2017/05/13 00:00:00",
+                "endTime": "2017/05/15 00:00:00",
+                "dataValue": 200
+            }],
+            "hydroSta": {
+                "engineCount": 10,
+                "firmN": 159.1,
+                "outputK": 8.1,
+                "insCapacity": 3
+            },
+            "riverCode": "1",
+            "curveDownZQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimData3": [],
+                "dimNum": 2
+            },
+            "curveZV": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "curveZMaxQ": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "curveHeadMaxNList": {
+                "dimData1": [],
+                "dimData2": [],
+                "dimNum": 2
+            },
+            "natureRateQ_C": [],
+            "natureRateQ_E": [],
+            "natureRateQ_H": [{
+                "dataTime": "2017/05/13 00:00:00",
+                "dataValue": 0
+            }],
+            "floodTyped": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 1900
+            }],
+            "floodDesign": [{
+                "flow": [],
+                "freQ": 0.05,
+                "stepHour": 1,
+                "typeYear": 0
+            }],
+            "dispatchGraph": {
+                "begNum": 16,
+                "lineCount": "",
+                "lineNames": [],
+                "lineNs": [],
+                "lineZs": []
+            }
+        }],
+        "hySectionList": [{
+            "riverCode": "1",
+            "riverName":"乌江",
+            "secInterDistance": [
+                0
+            ],
+            "secList": [{
+                "curveCode": "1",
+                "curveName": true,
+                "dimData1": [
+                    0
+                ],
+                "dimData2": [
+                    0
+                ],
+                "dimNum": 2
+            }],
+            "uptoDwon": false
+        }],
+        "taskName": "",
+        "modelType": [],
+        "taskDescription": ""
+    },
+    "inputBwUIList": [{
+        "hyScheme": {
+            "autherName": "liqi",
+            "schemeCode": "方案_1",
+            "schemeType": "5",
+            "schemeDescription": "",
+            "resCodeList": ["6"],
+            "programNum": 2
+        },
+        "stSecCd": "断面1",
+        "edSecCd": "断面7",
+        "roughDP": false,
+        "roughTpDP": 1,
+        "truTriDP": false,
+        "curveRoughQZ": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "secRoughList": [
+            0.035,
+            0.035
+        ],
+        "curveRoughness": [{
+            "dimData1": [
+                0,
+                0
+            ],
+            "dimData2": [
+                0,
+                0
+            ]
+        }],
+        "freqZList": [
+            0,
+            0
+        ],
+        "freq": 0,
+        "fthOutLevDiff": 0.3,
+        "ctrSecInflow": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ],
+        "tributaryInflow": [
+            [
+                0,
+                0
+            ],
+            [
+                0,
+                0
+            ]
+        ]
+    }],
+    "inputEcoUIList": [{
+        "hyScheme": {
+            "autherName": "liqi",
+            "schemeCode": "方案_1",
+            "schemeType": "11",
+            "schemeDescription": "",
+            "resCodeList": ["6"],
+            "programNum": 2
+        },
+        "buildPeriod": 10,
+        "operationPeriod": 30,
+        "socDiscountRate": 8,
+        "annOprCostRateHp": 2,
+        "annOprCostRateTp": 4.5,
+        "equCoefCap": 1.05,
+        "equCoefPow": 1.06,
+        "altTpuUnInv": 3800,
+        "staCoalConRate": 320,
+        "staCoalPrise": 850,
+        "staticConsInv": 10,
+        "upgFeeValue": 10,
+        "compAltCap": 10,
+        "compAltPow": 10,
+        "caUpgFeeValue": 10
+    }],
+    "inputFdUIList": [{
+        "hyScheme": {
+            "autherName": "liqi",
+            "schemeCode": "方案_1",
+            "schemeType": "2",
+            "schemeDescription": "",
+            "begDate": "2017/05/17 00:00:00",
+            "timeStepType": 2,
+            "timeStepNum": 1,
+            "stepNum": 72,
+            "resCodeList": ["6"],
+            "programNum": 1
+        },
+        "resList": [{
+            "resName": "洪家渡",
+            "resCode": "4",
+            "beginZ": 1,
+            "forcastInQList": [100,
+                100
+            ],
+            "curveZMaxQ": {
+                "dimData1": [100],
+                "dimData2": [100.553]
+            }
+        }, {
+            "resName": "构皮滩",
+            "resCode": "5",
+            "beginZ": 1,
+            "forcastInQList": [
+                100,
+                100
+            ],
+            "curveZMaxQ": {
+                "dimData1": [
+                    100
+                ],
+                "dimData2": [
+                    100.553
+                ]
+            }
+        }, {
+            "resName": "白马",
+            "resCode": "6",
+            "beginZ": 1,
+            "forcastInQList": [
+                100,
+                100
+            ],
+            "curveZMaxQ": {
+                "dimData1": [
+                    100
+                ],
+                "dimData2": [
+                    100.553
+                ]
+            }
+        }, {
+            "resName": "大花水",
+            "resCode": "3",
+            "beginZ": 1,
+            "forcastInQList": [
+                100,
+                100
+            ],
+            "curveZMaxQ": {
+                "dimData1": [
+                    100
+                ],
+                "dimData2": [
+                    100.553
+                ]
+            }
+
+        }]
+    }],
+    "inputRoUIList": [{
+        "hyScheme": {
+            "autherName": "liqi",
+            "schemeCode": "方案_1",
+            "schemeType": "12",
+            "schemeDescription": "",
+            "begDate": "2017/05/17 00:00:00",
+            "timeStepType": 4,
+            "timeStepNum": 1,
+            "stepNum": 720,
+            "resCodeList": [
+                "6"
+            ],
+            "programNum": 1
+        },
+        "hyReservoirDesign": {
+            "normalWaterLevel": 204.675,
+            "deadWaterLevel": 196.675,
+            "flowLoss": 23,
+            "resCode": "6",
+            "floodCtrlZList": [{
+                "beginTime": "0501",
+                "endTime": "0731",
+                "dataValue": 200
+            }],
+            "hydroSta": {
+                "insCapacity": 5.0,
+                "outputK": 8.3,
+                "engineCount": 10,
+                "isUseOperationChart": false,
+                "failureDepth": 0.4,
+                "asuFactor": 0.8,
+                "unCtrlYears": 4,
+                "isUseFirmRate": false
+            }
+        },
+        "roResIDataList": [{
+            "resName": "洪家渡",
+            "resCode": "4",
+            "forcastInQList": [
+                100,
+                100
+            ]
+        }, {
+            "resName": "构皮滩",
+            "resCode": "5",
+            "forcastInQList": [
+                100,
+                100
+            ]
+        }, {
+
+            "resName": "白马",
+            "resCode": "6",
+            "forcastInQList": [
+                100,
+                100
+            ]
+
+        }, {
+
+            "resName": "大花水",
+            "resCode": "3",
+            "forcastInQList": [
+                100,
+                100
+            ]
+
+        }]
+    }]
+}

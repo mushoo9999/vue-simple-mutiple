@@ -1,0 +1,304 @@
+{
+    "basicUI": {
+        "hyProject": { //项目信息
+            "prjName": "", //项目名称
+            "prjType": "", //项目类型
+            "prjDesc": "" //项目描述
+        },
+        "hyReservoirList": [ //水库列表
+            {
+                "resCode": "", //水库编码
+                "resName": "", //水库名称
+                "resType": 1, //1-常规水库；10-设计电站      
+                "normalWaterLevel": 204.675, //正常蓄水位
+                "deadWaterLevel": 196.675, //死水位
+                "flowLoss": 23.00, //损失流量
+                "floodCtrlZList": [{ //汛限水位
+                    "beginTime": "0501", //开始时间
+                    "endTime": "0731", //结束时间
+                    "dataValue": 200.00 //汛限水位
+                },{ //汛限水位
+                    "beginTime": "0501", //开始时间
+                    "endTime": "0731", //结束时间
+                    "dataValue": 200.00 //汛限水位
+                }],
+                "hydroSta": { //电站特征参数
+                    "engineCount": 10, //总装机台数                   
+                    "firmN": 0.0, //保证出力
+                    "outputK": 0.0, //综合出力系数K值
+                    "insCapacity": 0.0 //装机容量
+                },
+                "riverCode": "2", //隶属河流代码
+                "curveDownZQ": { //水库下游水位流量关系曲线
+                    "dimData1": [], //第一维数据
+                    "dimData2": [], //第二维数据
+                    "dimData3": [], //第三维数据
+                    "dimNum": 0, //曲线维数，默认2，若dimData3非空则为3
+                },
+                "curveZV": { //水库库容曲线
+                    "dimData1": [], //第一维数据
+                    "dimData2": [], //第二维数据
+                    "dimNum": 0, //曲线维数，2
+                },
+                "curveZMaxQ": { //水库泄流能力曲线
+                    "dimData1": [], //第一维数据
+                    "dimData2": [], //第二维数据
+                    "dimNum": 0, //曲线维数，2
+                },
+                "curveHeadMaxNList": { //机组出力限制曲线
+                    "dimData1": [], //第一维数据
+                    "dimData2": [], //第二维数据
+                    "dimNum": 0, //曲线维数，2
+                },
+                "natureRateQ_C": [ //旬径流过程
+                    {
+                        "dataTime": "2017/05/15 00:00:00", //时间
+                        "dataValue": 0 //数值
+                    }
+                ],
+                "natureRateQ_E": [ //逐月径流过程
+                    {
+                        "dataTime": "2017/05/15 00:00:00", //时间
+                        "dataValue": 0 //数值
+                    }
+                ],
+                "natureRateQ_H": [ //历史洪水
+                    {
+                        "dataTime": "2017/05/15 00:00:00", //时间
+                        "dataValue": 0 //数值
+                    }
+                ],
+                "floodTyped": [{ //典型洪水
+                    "flow": [""], //double序列
+                    "freQ": 0.05, //频率
+                    "stepHour": 1, //间隔小时数
+                    "typeYear": 1900 //典型年
+                }],
+                "floodDesign": [{ //设计洪水
+                    "flow": [""], //double序列
+                    "freQ": 0.05, //频率
+                    "stepHour": 1, //间隔小时数
+                    "typeYear": 0 //设计洪水典型年填0
+                }],
+                "dispatchGraph": { //调度图
+                    "begNum": 1, //起始旬号（从1开始基数，如：13代表5月上旬），默认1（代表1月上旬）
+                    "lineCount": 3, //调度线个数
+                    "lineNames": [ //调度线名称，可为空
+                        "name1",
+                        "name2"
+                    ],
+                    "lineNs": [ //各调度线对应出力，不能为空，不能重复
+                        0.0,
+                        0.0
+                    ],
+                    "lineZs": [ //各调度线水位，单位m，2位小数，行数= lineCount，列数=36，每行36个水位数据代表一条调度线，默认按从高到低排序
+                        [
+                            0.0 //调度线1，36个水位
+                        ],
+                        [
+                            0.0 //调度线2，36个水位
+                        ]
+                    ]
+                }
+            }
+        ],
+        "hySectionList": [ //所有河流断面数据
+            {
+                "riverCode": "1", //河流代码 乌江-1，清水河-2
+                "secInterDistance": [], //断面间距
+                "secList": [ //单个河流内的断面数据
+                    {
+                        "curveCode": "1", //断面代码
+                        "curveName": "0", //断面类型：0-常规断面；1-控制断面
+                        "dimData1": [1,3], //平距
+                        "dimData2": [2,4], //高程
+                    }, {
+                        "curveCode": "2", //断面代码
+                        "curveName": "0", //断面类型：0-常规断面；1-控制断面
+                        "dimData1": [], //平距
+                        "dimData2": [], //高程
+                    }
+                ],
+                "uptoDwon": true //断面集方向
+            }, {
+                "riverCode": "2", //河流代码 乌江-1，清水河-2
+                "secInterDistance": [], //断面间距
+                "secList": [ //单个河流内的断面数据
+                    {
+                        "curveCode": "", //断面代码
+                        "curveName": "0", //断面类型：0-常规断面；1-控制断面
+                        "dimData1": [], //平距
+                        "dimData2": [], //高程
+                    }
+                ],
+                "uptoDwon": true //断面集方向
+            }
+        ],
+        "taskName": "", //计算任务名称
+        "modelType": [ //模块类型 12-径流，5-回水， 11-经济评价， 2-洪水调节
+            0,
+            0
+        ]
+    },
+    "inputBwUIList": [{
+        "hyScheme": {
+            "schemeCode": "", //方案编码
+            "schemeType": 1, //方案类型
+            "schemeDescription": "" //方案描述
+        },
+        "stSecCd": "断面1", //起始断面编码
+        "edSecCd": "断面20", //终止断面编码
+        "roughDP": 1, //是否试糙
+        "roughTpDP": 1, //糙率类型
+        "truTriDP": 1, //是否使用坝址水位流量关系
+        "curveRoughQZ": [ //试糙流量-水位
+            [
+                1.0,
+                2.0
+            ], //水位数组
+            [
+                3.0,
+                4.0
+            ] //流量数组
+        ],
+        "secRoughList": [
+          0.035,
+          0.035
+        ], //河段平均糙率
+        "curveRoughness": [{
+            //河段糙率曲线
+            "dimData1": [
+                0.035,
+                0.035
+            ], //水位数组
+            "dimData2": [
+                    9.0,
+                    10.0
+                ] //糙率数组
+        }],
+        "freqZList": [
+          0,0
+        ], //坝前起推水位：第一个数据为天然起推水位，第二个数据为回水起推水位
+        "freq": 1, //入流量频率
+        "fthOutLevDiff": 0.3, //回水尖灭水位差
+        "ctrSecInflow": [ //控制断面流量
+            [
+                0,
+                0
+            ], //天然流量数组
+            [
+                0,
+                0
+            ] //回水流量数组
+        ],
+        "tributaryInflow": [ //河段支流汇入流量
+            [
+                0,
+                0
+            ], //天然流量数组
+            [
+                0,
+                0
+            ] //回水流量数组
+        ]
+    }],
+    "inputEcoUIList": [{
+        "hyScheme": {
+            "schemeCode": "", //方案编码
+            "schemeType": 1, //方案类型
+            "schemeDescription": "" //方案描述
+        },
+        "buildPeriod": 1, //筹建与建设期
+        "operationPeriod": 1, //运行期
+        "socDiscountRate": 8.00, //社会折现率
+        "annOprCostRateHp": 2.00, //水电年运行费率
+        "annOprCostRateTp": 4.50, //火电年运行费率
+        "equCoefCap": 1.05, //水火电容量的当量系数
+        "equCoefPow": 1.06, //水火电电量的当量系数
+        "altTpuUnInv": 3800.00, //替代火电机组单位投资
+        "staCoalConRate": 320.00, //标准煤耗率
+        "staCoalPrise": 850.00, //标准煤价
+        "staticConsInv": 10.00, //静态投资
+        "upgFeeValue": 10.00, //更新改造费
+        "compAltCap": 10.00, //补充替代容量效益差
+        "compAltPow": 10.00, //补充替代电量效益差
+        "caUpgFeeValue": 10.00 //补充替代电站更新改造费
+    }],
+    "inputFdUIList": [{
+        "hyScheme": {
+            "schemeCode": "", //方案编码
+            "schemeType": 1, //方案类型
+            "schemeDescription": "", //方案描述
+            "begDate": "", //开始时间
+            "timeStepType": 1, //时段步长类型：0-秒；1-分；2-时；3-日；4-旬；5-月；6-年
+            "timeStepNum": 1, //时段步长数
+            "stepNum": 1, //计算时段个数         
+            "resCodeList": [
+                    "",
+                    ""
+                ] //参与计算的水库编码列表
+        },
+        "resList": [{ //水库信息对象列表
+            "fdResIData": { //水库信息对象
+                "resName": "", // 水库名
+                "resCode": "", //水库代码
+                "beginZ": 1.0, //起调水位                    
+                "forcastInQList": [
+                    100.00,
+                    100.00
+                ], //入库/区间流量过程
+                "curveZMaxQ": {
+                    "dimData1": [
+                        100.00
+                    ],
+                    "dimData2": [
+                        100.553
+                    ]
+                } //泄流能力曲线
+            }
+        }]
+    }],
+    "inputRoUIList": [{
+        "hyScheme": {
+            "schemeCode": "", //方案编码
+            "schemeType": 1, //方案类型
+            "schemeDescription": "", //方案描述
+            "begDate": "", //开始时间
+            "timeStepType": 1, //时段步长类型：0-秒；1-分；2-时；3-日；4-旬；5-月；6-年
+            "timeStepNum": 1, //时段步长数
+            "stepNum": 1, //计算时段个数
+            "resCodeList": [
+                    "",
+                    ""
+                ] //参与计算的水库编码列表
+        },
+        "hyReservoirDesign": { //方案中设计电站信息
+            "normalWaterLevel": 204.675, //正常蓄水位
+            "deadWaterLevel": 196.675, //死水位
+            "flowLoss": 23.00, //损失流量
+            "floodCtrlZList": [{ //汛限水位
+                "beginTime": "0501", //开始时间
+                "endTime": "0731", //结束时间
+                "dataValue": 200.00 //汛限水位
+            }],
+            "hydroSta": { //电站特征参数
+                "engineCount": 10, //总装机台数
+                "isUseOperationChart": true, //是否输入调度图 1-自动计算 不等于1-输入调度图
+                "failureDepth": 0.4, //破坏深度
+                "asuFactor": 0.80, //指定保证率
+                "unCtrlYears": 4, //破坏年数
+                "isUseFirmRate": true //是否采用指定保证率 1按照破坏年数计算保证率 不等于1-按照指定保证率
+            }
+        },
+        "roResIDataList": [{ //水库信息对象列表
+            "roResIData": { //水库信息对象
+                "resName": "", // 水库名
+                "resCode": "", //水库代码
+                "forcastInQList": [
+                        100.00,
+                        100.00
+                    ] //入库流量过程
+            }
+        }]
+    }]
+}
